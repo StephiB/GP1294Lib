@@ -1,7 +1,7 @@
-This is a library for GP1287AI/BI VFD displays.
+This is a library for GP1294AI VFD displays.
 These displays use SPI to communicate, 3 to 4 pins are required to interface.
-These displays have 256x50 pixel area and require significant RAM size to store screen buffer, will not work on ATmega328/32u4 boards.
-Written by Vitaly Baranov based on Adafruit SSD1306 library.
+These displays have 256x48 pixel area and require significant RAM size to store screen buffer, will not work on ATmega328/32u4 boards.
+Originally written by Vitaly Baranov based on Adafruit SSD1306 library. Edited by Stephan Bierod
 
 
 
