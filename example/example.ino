@@ -36,14 +36,14 @@
 #include <SPI.h>
 
 #include <Adafruit_GFX.h>
-#include <GP1287Lib.h>
+#include <GP1294Lib.h>
 
 #define SCREEN_WIDTH 256 // VFD display width, in pixels
-#define SCREEN_HEIGHT 50 // VFD display height, in pixels
+#define SCREEN_HEIGHT 48 // VFD display height, in pixels
 
-#define reset_pin 44
-#define cs_pin 43
-#define fil_pin 45
+#define reset_pin 36
+#define cs_pin 10
+#define fil_pin 43
 
 GP1287VFD display(SCREEN_WIDTH, SCREEN_HEIGHT, &SPI, reset_pin, cs_pin, 8000000UL);
 
